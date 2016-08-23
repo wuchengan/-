@@ -1,0 +1,1973 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+ul,li{
+	margin: 0;
+	list-style:none; 
+}
+/*body{
+	font: 14px/1.5 "PingFang SC", Helvetica, "Helvetica Neue", "微软雅黑", Tahoma, Arial, sans-serif;
+}*/
+.box{
+	width: 100%;
+	height: 490px;
+}
+.nth{
+	width: 100%;
+	height:80px;
+	background-color:white;
+	position: relative;
+	top: -490px; 
+}
+.nth-a{
+	position: absolute;
+}
+.nth-a img{
+	margin-top: 14px;
+	margin-left: 20px;
+}
+.ul-a{
+	width: 288px;
+	height: 60px;
+	position: absolute;
+	left: 180px;
+	top: 8px;
+	overflow: hidden;
+}
+.ul-a li{
+	width: 72px;
+	float: left;	
+}
+.ul-a li a{
+	padding: 0 20px;
+	text-align: center;
+	line-height: 60px;
+	color: #07111b;
+	font:;
+}
+.ul-a li:nth-child(1) a:hover{
+	    color: #f01414;
+}
+.ul-a li:nth-child(2) a:hover{
+	    color: #f01414;
+}
+.ul-a li:nth-child(3) a:hover{
+	    color: #f01414;
+}
+.ul-a li:nth-child(4) a:hover{
+		color: #f01414;
+}
+
+.nth-b{
+	position: absolute;
+	width: 240px;
+	height: 60px;
+	left: 1350px;
+	top: 8px;
+	background-color: white;
+}
+.nth-c{
+    float: right;
+    position: relative;
+    height: 38px;
+    width: 210px;
+    margin: 10px 0;
+    padding-right: 30px;
+    border-bottom: 1px solid #d9dde1;
+    zoom: 1;
+    -webkit-transition: width 0.3s;
+    -moz-transition: width 0.3s;
+    transition: width 0.3s;
+}
+.nth-c a{
+	position: absolute;
+	top: 5px;
+	font-size: 25px;
+	color: #787d82;
+}
+.nth-c a:hover{
+	color: #f01414;
+}
+.nth-b input{
+    padding: 5px 10px;
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+    font-size: 12px;
+    float: left;
+    border: 0;
+    color: #71777d;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+.nth-q{
+	width: 180px;
+	height: 60px;
+	position: absolute;
+	left: 1650px;
+	top: 8px;
+}
+.nth-q1 > li{
+	width: 60px;
+	height: 60px;
+	float: left;
+}
+/*.nth-q1 li > a{
+	display: block;
+    width: 60px;
+    font-size: 14px;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    color: #787d82;
+    -webkit-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+}*/
+.shan{
+	display: block;
+    width: 60px;
+    font-size: 14px;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    color: #787d82;
+    -webkit-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    transition: background-color 0.2s;  
+}
+.ru{
+	display: block;
+    width: 60px;
+    font-size: 14px;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    color: #787d82;
+    -webkit-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    transition: background-color 0.2s;  
+}
+.ce{
+	display: block;
+    width: 60px;
+    font-size: 14px;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    color: #787d82;
+    -webkit-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    transition: background-color 0.2s;  
+}
+.nth-q1  li:nth-child(1) a:hover{
+	color: #f01414;
+}
+.nth-q1 li:nth-child(2) a:hover{
+	    color: #f01414;
+}
+.nth-q1 li:nth-child(3) a:hover{
+	    color: #f01414;
+}
+.app{
+	position: absolute;
+	width: 182px;
+	height: 203px;
+	background-color:white;
+	top: 110px;
+	left: -60px;
+	display: none;
+}
+.app li:nth-child(1){
+	position: absolute;
+	top: -13px;
+	left:83px; 
+	color: white;
+}
+.app li:nth-child(2) a {
+	color: #07111b;
+	font-size: 16px;
+	line-height: 25px;
+	text-align: center;
+	width: 180px;
+	height: 25px;
+	display: block;
+
+}
+.app li:nth-child(3) a{
+	color: #787d82;
+	font-size: 14px;
+	text-align: center;
+	width: 180px;
+	height: 15px;
+	display: block;
+}
+.app li:nth-child(4){
+	margin-top: 25px;
+	margin-left: 30px;
+}
+
+/*第二部分*/
+.left-a{
+	width: 1200px;
+	height: 460px;
+	position: relative;
+	margin: 0 auto;
+	top: -490px;
+}
+.right-w li{
+	position: absolute;
+	width: 1200px;
+	height: 460px;
+	opacity: 0;
+	transition: 1s;
+}
+.right-w .a-a{
+	opacity: 1;
+}
+.right-d .b-b{
+	background-color:#fff;
+}
+.right-d{
+	width: 40px;
+	height: 10px;
+	position: absolute;
+	top: 410px;
+	left: 1130px;
+	cursor: pointer;
+}
+
+/*第一个点击变化*/
+.top-a{
+	width: 730px;
+	height: 460px;
+	background-image: url(image/7.png);
+	position: absolute;
+	top: 0px;
+	left: 244px;
+	display: none;
+}
+.top-b{
+	width: 652px;
+	height: 346px;
+	position:relative;
+	margin: 0 auto;
+}
+.right-b:hover{
+	background-color: rgba(7,17,27,.5);
+}
+
+.fenlei{
+	position: absolute;
+	top: 30px;
+	left: 0px;
+	color: #f01414;
+}
+.top-c  a{
+	float: left;
+	color: #14191e;
+	margin-top: 70px;
+}
+.top-b a:hover{
+	color: red;
+}
+.top-d{
+	position: absolute;
+	top: 100px;
+}
+.top-d a{
+	color: #14191e;
+	float: left;
+}
+.top-e a:hover{
+	color: red;
+}
+.top-e{
+	position: absolute;
+	top: 120px;
+}
+.top-e a{
+	color: #14191e;
+}
+.tuijian{
+	position: absolute;
+	top:200px;
+	left: 0px;
+	color: #f01414;
+}
+.top-f{
+	position: absolute;
+	top:240px;
+}
+.top-g{
+	position: absolute;
+	top:260px;
+}
+.top-h{
+	position: absolute;
+	top:280px;
+}
+.top-f a{
+	float: left;
+	color: #14191e; 
+}
+.top-g a{
+	float: left;
+	color: #14191e; 
+}
+.top-h a{
+	float: left;
+	color: #14191e; 
+}
+
+
+/*第二个点击变化的图片*/
+.top-i{
+	top: -64px;
+	background-image: url(image/8.png);
+	display: none;
+
+}
+.tops-k{
+	top: -128px;
+	background-image: url(image/9.png);
+	display: none;
+}
+.topp-p{
+	top: -192px;
+	background-image: url(image/10.png);
+	display: none;
+}
+.yunn{
+	top: -256px;
+	background-image: url(image/11.png);
+	display: none;
+}
+.weii{
+	top: -320px;
+	background-image: url(image/12.png);
+	display: none;
+}
+.shii{
+	top: -384px;
+	background-image: url(image/13.png);
+	display: none;
+}
+
+.right-d li{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color:lightgray; 
+	float: left;
+	margin-left:7px; 
+}
+.left-p{
+	width: 40px;
+	height: 80px;
+	position: absolute;
+	left: 244px;
+	top: 30%;
+	font-size: 40px;
+	line-height: 80px;
+	color: white;
+	cursor: pointer;
+
+}
+.left-l{
+	width: 40px;
+	height: 80px;
+	position: absolute;
+	left: 1160px;
+	top: 30%;
+	font-size: 40px;
+	line-height: 80px;
+	color: white;
+	cursor: pointer;
+}
+.right-a{
+	width:244px;
+	height: 460px;
+	background-color: rgba(7,17,27,.5);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.right-b{
+	width: 244px;
+	height: 64px;
+	margin: 0 auto;
+ 	position: relative;
+}
+.right-b > a {
+    display: block;
+    color: #fff;
+    padding: 0 8px;
+    width: 196px;
+    height: 64px;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    height: 63px;
+    margin: 0 auto;
+}
+
+.right-b span{
+	color: white;
+	font-size: 16px;
+	line-height: 64px;
+}
+.right-c{
+	float: right;
+}
+
+/*实战推荐*/
+.red-a{
+	width: 100%;
+	height: 216px;
+	position: relative;
+	top: 100px;
+}
+.red-b{
+	width: 1200px;
+	height: 212px;
+	position:relative;
+	margin: 0 auto;
+}
+.red-c1{
+	overflow: hidden;
+	box-shadow: 1px 4px 10px #aaa;
+}
+.red-c li{
+	position: absolute;
+	width: 224px;
+	height: 172px;
+	top: 40px;
+	/*background-color: green;*/
+}
+.red-z1{
+	width: 224px;
+	height:42px;
+	position: absolute;
+	z-index: 3;
+	background-color: white;
+}
+.red-z1 span:nth-child(1){
+    color: #f01414;
+    font-size: 12px;
+    float: left;
+    margin-top: 10px;
+}
+.red-z1 span:nth-child(2){
+    color: #5e5e5e;
+    font-size: 12px;
+    float:right;
+    margin-top: 10px;
+}
+.red-z{
+	width:224px;
+	height: 140px;
+	background-color: white;
+	position: absolute;
+	top:100px;
+	transition: 1s;
+}
+.red-z span{
+    font-size: 14px;
+    color: #07111b;
+    margin-left: 30px;
+}
+.red-z div{
+	color: #93999f;
+    font-size: 12px;
+    height: 40px;
+    margin-top: 20px;
+}
+.red-c2{
+	left:248px;
+	box-shadow: 1px 4px 10px #aaa;
+}
+.red-c3{
+	left:490px;
+	box-shadow: 1px 4px 10px #aaa;
+}
+.red-c4{
+	left: 736px;
+	box-shadow: 1px 4px 10px #aaa;
+}
+.red-c5{
+	left: 976px;
+	box-shadow: 1px 4px 10px #aaa;
+}
+.red-c6{
+	color: #4d555d;
+	font-size: 14px;
+	float: right;
+}
+.red-c7{
+    font-size: 16px;
+    color: #07111b;
+}
+.red-c6:hover{
+	color: #93999f;
+}
+.red-c a:hover .red-z{
+	top: 40px;
+}
+/*实战第二个*/
+.red-c2{
+	overflow: hidden;
+}
+/*实战第三个*/
+.red-c3{
+	overflow: hidden;
+}
+/*实战第四个*/
+.red-c4{
+	overflow: hidden;
+}
+/*实战第五个*/
+.red-c5{
+	overflow: hidden;
+}
+
+/*免费好课*/
+.red-aa{
+	width: 100%;
+	height: 216px;
+	position: relative;
+	top: 130px;
+}
+.red-b1{
+	width: 1200px;
+	height: 212px;
+	position:relative;
+	margin: 0 auto;
+	/*background-color: red;*/
+}
+
+/*web前段*/
+.blue{
+	width: 100%;
+	height:2752px;
+	/*background-color: lightgray;*/
+	position: relative;
+	top: 130px; 
+}
+/*第三块里面第一块*/
+.white{
+	width: 1200px;
+	height: 412px;
+	position: relative;
+/*	background-color: pink;*/
+	margin: 0 auto;
+}
+
+/*web里面的第一个*/
+.white-a{
+	width: 224px;
+	height: 364px;
+	position: absolute;
+	top: 48px;
+	box-shadow: 1px 4px 10px #aaa;
+	cursor: pointer;
+}
+.white-a h1{
+	position: absolute;
+	top:20px;
+	left: 20px;
+	color: #fff;	
+}
+.white-a h2{
+	position: absolute;
+	top:60px;
+	left: 20px;
+	font-size: 30px;
+	color: #fff;		
+}
+.white-a h3{
+	position: absolute;
+	top:130px;
+	left: 20px;
+	font-size: 16px;
+	color: #fff;
+}
+.white-a h4{
+	position: absolute;
+	top:250px;
+	left: 20px;
+	font-size: 12px;
+	color: #c03;
+}
+.white-a h5{
+	position: absolute;
+	top:270px;
+	left: 20px;
+	font-size: 12px;
+	color: #c03;
+}
+.white-a h6{
+	position: absolute;
+	top:310px;
+	left: 20px;
+	font-size: 12px;
+	color: #c03;
+}
+.white-a a:hover h4{
+	color: #ff0040;
+}
+.white-a a:hover h5{
+	color: #ff0040;
+}
+.white-a a:hover h6{
+	color: #ff0040;
+}
+.white-a h3:hover span{
+	transform: translateX(50px);
+}
+.white-a span{
+	position: absolute;
+	top: 0px;
+	left: 80px;
+	font-size: 16px;
+	color: #fff;
+	transition: 1s;
+}
+
+
+/*web第二个*/
+.white-b{
+	width:458px;
+	height:172px;
+	position: absolute;
+	left:250px;
+	top:48px;
+	box-shadow: 1px 4px 10px #aaa;
+	cursor: pointer;
+}
+.white-b h1{
+	position: absolute;
+	top: 0px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+	left: 70px;
+    line-height: 172px;
+}
+
+/*web第三个*/
+.white-c{
+	width:458px;
+	height:172px;
+	position: absolute;
+	top:240px;
+	left:250px;
+	box-shadow: 1px 4px 10px #aaa;
+	cursor: pointer;
+}
+.white-c h1{
+	position: absolute;
+	top: 0px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+	left: 70px;
+    line-height: 172px;
+}
+
+/*第四个*/
+.white-d{
+	width:224px;
+	height:172px;
+	position: absolute;
+	top: 48px;
+	left:730px; 
+	box-shadow: 1px 4px 10px #aaa;
+	cursor: pointer;
+}
+/*第五个*/
+.white-e{
+	width:224px;
+	height:172px;
+	position: absolute;
+	top:240px;
+	left:730px;  
+	box-shadow: 1px 4px 10px #aaa;
+	cursor: pointer;
+}
+
+/*第六个*/
+.white-f{
+	width:224px;
+	height:364px;
+	position: absolute;
+	top:48px;
+	left: 976px;
+	/*background-color: green;*/
+	box-shadow: 1px 4px 10px #aaa;
+	cursor: pointer;
+}
+.white-g{
+	position: relative;
+	z-index: 3;
+	width: 184px;
+	height: 162px;
+	/*background-color: red;*/
+	margin: 0px auto;
+	top: 73px;
+    border-top: 1px solid #d9dde1;
+}
+.white-g h1,h2,h3,h4,h5{
+	font-size: 12px;
+	margin-top: 15px;
+	color: #14191e;
+}
+
+.white-g a:hover h1{
+	color: #f01414;
+}
+.white-g a:hover h2{
+	color: #f01414;
+}
+.white-g a:hover h3{
+	color: #f01414;
+}
+.white-g a:hover h4{
+	color: #f01414;
+}
+.white-g a:hover h5{
+	color: #f01414;
+}
+/*点击整块阴影效果*/
+.white-a:hover{
+	box-shadow: 1px 4px 20px #222;
+}
+.white-b:hover{
+	box-shadow: 1px 4px 20px #222;
+}
+
+.white-c:hover{
+	box-shadow: 1px 4px 20px #222;
+}
+
+.white-d:hover{
+	box-shadow: 1px 4px 20px #222;
+}
+.white-e:hover{
+	box-shadow: 1px 4px 20px #222;
+}
+.white-f:hover{
+	box-shadow: 1px 4px 20px #222;
+}
+
+/*点击图片往上移的效果*/
+.white-f,.white-e,.white-d{
+	overflow: hidden;
+}
+.white-e:hover .red-z{
+	top: 40px;
+}
+.white-d:hover .red-z{
+	top: 40px;
+}
+.white-f:hover .red-z{
+	top: 40px;
+}
+
+/*java工程师*/
+/*java工程师第一个*/
+.yes{
+	width: 1200px;
+	height: 412px;
+	position: relative;
+	/*background-color: pink;*/
+	margin: 0 auto;
+	top: 4px;
+}
+.yes-a{
+	width: 224px;
+	height: 364px;
+	position: absolute;
+	top: 48px;
+	box-shadow: 1px 4px 10px #aaa;
+	cursor: pointer;
+}
+.yes-a h1{
+	position: absolute;
+	top:20px;
+	left: 20px;
+	color: #fff;	
+}
+.yes-a h2{
+	position: absolute;
+	top:60px;
+	left: 20px;
+	font-size: 30px;
+	color: #fff;		
+}
+.yes-a h3{
+	position: absolute;
+	top:130px;
+	left: 20px;
+	font-size: 16px;
+	color: #fff;
+}
+.yes-a h4{
+	position: absolute;
+	top:250px;
+	left: 20px;
+	font-size: 12px;
+	color: #069;
+}
+.yes-a h5{
+	position: absolute;
+	top:270px;
+	left: 20px;
+	font-size: 12px;
+	color: #069;
+}
+.yes-a h6{
+	position: absolute;
+	top:310px;
+	left: 20px;
+	font-size: 12px;
+	color: #069;
+}
+.yes-a a:hover h4{
+	color:rgb(0, 136, 204);
+}
+.yes-a a:hover h5{
+	color:rgb(0, 136, 204);
+}
+.yes-a a:hover h6{
+	color:rgb(0, 136, 204);
+}
+.yes-a h3:hover span{
+	transform: translateX(50px);
+}
+.yes-a span{
+	position: absolute;
+	top: 0px;
+	left: 80px;
+	font-size: 16px;
+	color: #fff;
+	transition: 1s;
+}
+
+/*第二个*/
+.yes-b{
+	width:712px;
+	height:172px;
+	/*background-color: red;*/
+	position: absolute;
+	left:250px;
+	top:48px;
+}
+.yes-b h1{
+	position: absolute;
+	top: 0px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+	left: 290px;
+    line-height: 172px;
+}
+
+/*第五个*/
+.yes-d{
+	width:224px;
+	height:172px;
+	position: absolute;
+	top: 240px;
+	left:740px; 
+	box-shadow: 1px 4px 10px #aaa;
+	cursor: pointer;
+}
+.yes-d{
+	overflow: hidden;
+}
+.yes-d:hover .red-z{
+		top: 40px;
+}
+
+/*第四个*/
+.yes-e{
+	width:224px;
+	height:172px;
+	position: absolute;
+	top:240px;
+	left:496px;  
+	box-shadow: 1px 4px 10px #aaa;
+	cursor: pointer;
+}
+.yes-e{
+	overflow: hidden;
+}
+.yes-e:hover .red-z{
+		top: 40px;
+}
+
+/*第三个*/
+.yes-c{
+	width:224px;
+	height:172px;
+	position: absolute;
+	top:240px;
+	left:250px;  
+	box-shadow: 1px 4px 10px #aaa;
+	cursor: pointer;
+}
+.yes-c{
+	overflow: hidden;
+}
+.yes-c:hover .red-z{
+		top: 40px;
+}
+
+/*阴影效果*/
+.yes-a:hover{
+	box-shadow: 1px 4px 20px #222;
+}
+.yes-b:hover{
+	box-shadow: 1px 4px 20px #222;
+}
+.yes-c:hover{
+	box-shadow: 1px 4px 20px #222;
+}
+.yes-d:hover{
+	box-shadow: 1px 4px 20px #222;
+}
+.yes-e:hover{
+	box-shadow: 1px 4px 20px #222;
+}
+
+/*php工程师*/
+/*第一个*/
+.no{
+	width: 1200px;
+	height: 412px;
+	position: relative;
+	/*background-color: pink;*/
+	margin: 0 auto;
+	top: 8px;
+}
+.no-a{
+	width: 224px;
+	height: 364px;
+	position: absolute;
+	top: 48px;
+	box-shadow: 1px 4px 10px #aaa;
+	cursor: pointer;
+}
+.no-a h1{
+	position: absolute;
+	top:20px;
+	left: 20px;
+	color: #fff;	
+}
+.no-a h2{
+	position: absolute;
+	top:60px;
+	left: 20px;
+	font-size: 30px;
+	color: #fff;		
+}
+.no-a h3{
+	position: absolute;
+	top:130px;
+	left: 20px;
+	font-size: 16px;
+	color: #fff;
+}
+.no-a h4{
+	position: absolute;
+	top:250px;
+	left: 20px;
+	font-size: 12px;
+    color: #4343cc;
+}
+.no-a h5{
+	position: absolute;
+	top:270px;
+	left: 20px;
+	font-size: 12px;
+	color: #4343cc;
+}
+.no-a h6{
+	position: absolute;
+	top:310px;
+	left: 20px;
+	font-size: 12px;
+	color: #4343cc;
+}
+.no-a a:hover h4{
+	color:rgb(0, 136, 204);
+}
+.no-a a:hover h5{
+	color:rgb(0, 136, 204);
+}
+.no-a a:hover h6{
+	color:rgb(0, 136, 204);
+}
+.no-a h3:hover span{
+	transform: translateX(50px);
+}
+.no-a span{
+	position: absolute;
+	top: 0px;
+	left: 80px;
+	font-size: 16px;
+	color: #fff;
+	transition: 1s;
+}
+
+/*第二个*/
+.no-b{
+	width:468px;
+	height:364px;
+	position: absolute;
+	box-shadow: 1px 4px 10px #aaa;
+	left:250px;
+	top:48px;
+}
+.no-b div{
+    background-color: #fff;
+    height: 1px;
+    width: 206px;
+    position: absolute;
+    top: 170px;
+    left: 135px;
+
+} 
+.no-b h1{
+	position: absolute;
+	top: 0px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+	left: 120px;
+    line-height: 240px;
+}
+.no-b h2{
+	position: absolute;
+	top: 0px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+	left: 120px;
+    line-height: 400px;
+}
+
+/*第三个*/
+
+.no-c{
+	width:224px;
+	height:172px;
+	position: absolute;
+	top: 48px;
+	left:730px; 
+	box-shadow: 1px 4px 10px #aaa;
+	cursor: pointer;
+	overflow: hidden;
+}
+.no-c:hover .red-z{
+	top: 40px;
+}
+/*第四个*/
+.no-d{
+	width:224px;
+	height:172px;
+	position: absolute;
+	top: 240px;
+	left:730px; 
+	box-shadow: 1px 4px 10px #aaa;
+	cursor: pointer;
+	overflow: hidden;
+}
+.no-d:hover .red-z{
+	top: 40px;
+}
+
+/*阴影效果动画*/
+.no-a:hover{
+	box-shadow: 1px 4px 20px #222;
+}
+.no-b:hover{
+	box-shadow: 1px 4px 20px #222;
+}
+.no-c:hover{
+	box-shadow: 1px 4px 20px #222;
+}
+.no-d:hover{
+	box-shadow: 1px 4px 20px #222;
+}
+
+
+/*android工程师*/
+/*第一个*/
+.gold{
+	width: 1200px;
+	height: 412px;
+	position: relative;
+	/*background-color: pink;*/
+	margin: 0 auto;
+	top: 12px;
+}
+.gold-a{
+	width: 224px;
+	height: 364px;
+	position: absolute;
+	top: 48px;
+	box-shadow: 1px 4px 10px #aaa;
+	cursor: pointer;
+}
+.gold-a h1{
+	position: absolute;
+	top:20px;
+	left: 20px;
+	color: #fff;	
+}
+.gold-a h2{
+	position: absolute;
+	top:60px;
+	left: 20px;
+	font-size: 30px;
+	color: #fff;		
+}
+.gold-a h3{
+	position: absolute;
+	top:130px;
+	left: 20px;
+	font-size: 16px;
+	color: #fff;
+}
+.gold-a h4{
+	position: absolute;
+	top:250px;
+	left: 20px;
+	font-size: 12px;
+    color: #00994d;
+}
+.gold-a h5{
+	position: absolute;
+	top:270px;
+	left: 20px;
+	font-size: 12px;
+    color: #00994d;
+}
+.gold-a h6{
+	position: absolute;
+	top:310px;
+	left: 20px;
+	font-size: 12px;
+    color: #00994d;
+}
+.gold-a a:hover h4{
+    color: #063;
+}
+.gold-a a:hover h5{
+	    color: #063;
+}
+.gold-a a:hover h6{
+	    color: #063;
+}
+.gold-a h3:hover span{
+	transform: translateX(50px);
+}
+.gold-a span{
+	position: absolute;
+	top: 0px;
+	left: 80px;
+	font-size: 16px;
+	color: #fff;
+	transition: 1s;
+}
+
+/*第二个*/
+.gold-b{
+	width:712px;
+	height:172px;
+	/*background-color: red;*/
+	position: absolute;
+	left:250px;
+	top:48px;
+}
+.gold-b h1{
+	position: absolute;
+	top: 0px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+	left: 70px;
+    line-height: 172px;
+}
+/*第五个*/
+.gold-d{
+	width:224px;
+	height:172px;
+	position: absolute;
+	top: 240px;
+	left:740px; 
+	box-shadow: 1px 4px 10px #aaa;
+	cursor: pointer;
+}
+.gold-d{
+	overflow: hidden;
+}
+.gold-d:hover .red-z{
+		top: 40px;
+}
+
+/*第四个*/
+.gold-e{
+	width:224px;
+	height:172px;
+	position: absolute;
+	top:240px;
+	left:496px;  
+	box-shadow: 1px 4px 10px #aaa;
+	cursor: pointer;
+}
+.gold-e{
+	overflow: hidden;
+}
+.gold-e:hover .red-z{
+		top: 40px;
+}
+
+/*第三个*/
+.gold-c{
+	width:224px;
+	height:172px;
+	position: absolute;
+	top:240px;
+	left:250px;  
+	box-shadow: 1px 4px 10px #aaa;
+	cursor: pointer;
+}
+.gold-c{
+	overflow: hidden;
+}
+.gold-c:hover .red-z{
+		top: 40px;
+}
+/*第六个*/
+.gold-f{
+	width:224px;
+	height:364px;
+	position: absolute;
+	top:48px;
+	left: 976px;
+	/*background-color: green;*/
+	box-shadow: 1px 4px 10px #aaa;
+	cursor: pointer;
+}
+.gold-g{
+	position: relative;
+	z-index: 3;
+	width: 184px;
+	height: 162px;
+	/*background-color: red;*/
+	margin: 0px auto;
+	top: 73px;
+    border-top: 1px solid #d9dde1;
+}
+.gold-g h1,h2,h3,h4,h5{
+	font-size: 12px;
+	margin-top: 15px;
+	color: #14191e;
+}
+.gold-g a:hover h1{
+	color: #f01414;
+}
+.gold-g a:hover h2{
+	color: #f01414;
+}
+.gold-g a:hover h3{
+	color: #f01414;
+}
+.gold-g a:hover h4{
+	color: #f01414;
+}
+.gold-g a:hover h5{
+	color: #f01414;
+}
+.gold-f{
+	overflow: hidden;
+}
+.gold-f:hover .red-z{
+		top: 40px;
+}
+
+/*阴影效果*/
+.gold-a:hover{
+	box-shadow: 1px 4px 20px #222;
+}
+.gold-b:hover{
+	box-shadow: 1px 4px 20px #222;
+}
+.gold-d:hover{
+	box-shadow: 1px 4px 20px #222;
+}
+.gold-e:hover{
+	box-shadow: 1px 4px 20px #222;
+}
+.gold-c:hover{
+	box-shadow: 1px 4px 20px #222;
+}
+.gold-f:hover{
+	box-shadow: 1px 4px 20px #222;
+}
+
+/*ios工程师*/
+.pink{
+	width: 1200px;
+	height: 412px;
+	position: relative;
+	/*background-color: pink;*/
+	margin: 0 auto;
+	top: 12px;
+}
+/*第一个*/
+.pink-a{
+	width: 224px;
+	height: 364px;
+	position: absolute;
+	top: 48px;
+	box-shadow: 1px 4px 10px #aaa;
+	cursor: pointer;
+}
+.pink-a h1{
+	position: absolute;
+	top:20px;
+	left: 20px;
+	color: #fff;	
+}
+.pink-a h2{
+	position: absolute;
+	top:60px;
+	left: 20px;
+	font-size: 30px;
+	color: #fff;		
+}
+.pink-a h3{
+	position: absolute;
+	top:115px;
+	left: 20px;
+	font-size: 16px;
+	color: #fff;
+}
+.pink-a h4{
+	position: absolute;
+	top:250px;
+	left: 20px;
+	font-size: 12px;
+    color: #066;
+}
+.pink-a h5{
+	position: absolute;
+	top:270px;
+	left: 20px;
+	font-size: 12px;
+    color: #066;
+}
+.pink-a h6{
+	position: absolute;
+	top:310px;
+	left: 20px;
+	font-size: 12px;
+    color: #066;
+}
+.pink-a a:hover h4{
+    color: #099;
+}
+.pink-a a:hover h5{
+    color: #099;
+}
+.pink-a a:hover h6{
+    color: #099;
+}
+.pink-a h3:hover span{
+	transform: translateX(50px);
+}
+.pink-a span{
+	position: absolute;
+	top: 0px;
+	left: 80px;
+	font-size: 16px;
+	color: #fff;
+	transition: 1s;
+}
+
+/*第二个*/
+.pink-b{
+	width:458px;
+	height:172px;
+	position: absolute;
+	left:250px;
+	top:48px;
+	box-shadow: 1px 4px 10px #aaa;
+	cursor: pointer;
+}
+.pink-b h1{
+	position: absolute;
+	top: 0px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+	left: 70px;
+    line-height: 172px;
+}
+
+/*第三个*/
+.pink-c{
+	width:458px;
+	height:172px;
+	position: absolute;
+	top:240px;
+	left:250px;
+	box-shadow: 1px 4px 10px #aaa;
+	cursor: pointer;
+}
+.pink-c h1{
+	position: absolute;
+	top: 0px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+	left: 70px;
+    line-height: 172px;
+}
+/*第四个*/
+.pink-d{
+	width:224px;
+	height:172px;
+	position: absolute;
+	top:48px;
+	left:730px;  
+	box-shadow: 1px 4px 10px #aaa;
+	cursor: pointer;
+}
+/*第五个*/
+.pink-e{
+	width:224px;
+	height:172px;
+	position: absolute;
+	top:240px;
+	left:730px;  
+	box-shadow: 1px 4px 10px #aaa;
+	cursor: pointer;
+}
+/*第六个*/
+.pink-f{
+	width:224px;
+	height:364px;
+	position: absolute;
+	top:48px;
+	left: 976px;
+	/*background-color: green;*/
+	box-shadow: 1px 4px 10px #aaa;
+	cursor: pointer;
+}
+.pink-g{
+	position: relative;
+	z-index: 3;
+	width: 184px;
+	height: 162px;
+	/*background-color: red;*/
+	margin: 0px auto;
+	top: 73px;
+    border-top: 1px solid #d9dde1;
+}
+.pink-g h1,h2,h3,h4,h5{
+	font-size: 12px;
+	margin-top: 15px;
+	color: #14191e;
+}
+.pink-g a:hover h1{
+	color: #f01414;
+}
+.pink-g a:hover h2{
+	color: #f01414;
+}
+.pink-g a:hover h3{
+	color: #f01414;
+}
+.pink-g a:hover h4{
+	color: #f01414;
+}
+.pink-g a:hover h5{
+	color: #f01414;
+}
+
+/*点击整块阴影效果*/
+.pink-a:hover{
+	box-shadow: 1px 4px 20px #222;
+}
+.pink-b:hover{
+	box-shadow: 1px 4px 20px #222;
+}
+
+.pink-c:hover{
+	box-shadow: 1px 4px 20px #222;
+}
+
+.pink-d:hover{
+	box-shadow: 1px 4px 20px #222;
+}
+.pink-e:hover{
+	box-shadow: 1px 4px 20px #222;
+}
+.pink-f:hover{
+	box-shadow: 1px 4px 20px #222;
+}
+
+/*点击图片往上移的效果*/
+.pink-f,.pink-e,.pink-d{
+	overflow: hidden;
+}
+.pink-e:hover .red-z{
+	top: 40px;
+}
+.pink-d:hover .red-z{
+	top: 40px;
+}
+.pink-f:hover .red-z{
+	top: 40px;
+}
+
+/*维护工程师*/
+.black{
+	width: 1200px;
+	height: 192px;
+	position: relative;
+	/*background-color: pink;*/
+	margin: 0 auto;
+	top: 16px;
+}
+/*第一个*/
+.black-a{
+	width:224px;
+	height:172px;
+	position: absolute;
+	top: 18px; 
+	box-shadow: 1px 4px 10px #aaa;
+	cursor: pointer;
+	overflow: hidden;
+}
+.black-a h3:hover span{
+	transform: translateX(50px);
+}
+.black-a h1{
+	position: absolute;
+	top:20px;
+	left: 20px;
+	color: #fff;	
+}
+.black-a h2{
+	position: absolute;
+	top:60px;
+	left: 20px;
+	font-size: 30px;
+	color: #fff;		
+}
+.black-a h3{
+	position: absolute;
+	top:130px;
+	left: 20px;
+	font-size: 16px;
+	color: #fff;
+}
+.black-a span{
+	position: absolute;
+	top: 0px;
+	left: 80px;
+	font-size: 16px;
+	color: #fff;
+	transition: 1s;
+}
+
+/*第二个*/
+.black-b{
+	width:224px;
+	height:172px;
+	position: absolute;
+	left:244px;
+	top: 18px; 
+	box-shadow: 1px 4px 10px #aaa;
+	cursor: pointer;
+	overflow: hidden;
+}
+.black-c{
+	width:224px;
+	height:172px;
+	position: absolute;
+	left:488px;
+	top: 18px; 
+	box-shadow: 1px 4px 10px #aaa;
+	cursor: pointer;
+	overflow: hidden;
+}
+.black-d{
+	width:224px;
+	height:172px;
+	position: absolute;
+	left:732px;
+	top: 18px; 
+	box-shadow: 1px 4px 10px #aaa;
+	cursor: pointer;
+	overflow: hidden;
+}
+.black-e{
+	width:224px;
+	height:172px;
+	position: absolute;
+	left:976px;
+	top: 18px; 
+	box-shadow: 1px 4px 10px #aaa;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+/*图片往上移 的效果*/
+.black-a:hover .red-z{
+	top: 40px;
+}
+.black-b:hover .red-z{
+	top: 40px;
+}
+.black-c:hover .red-z{
+	top: 40px;
+}
+.black-d:hover .red-z{
+	top: 40px;
+}
+.black-e:hover .red-z{
+	top: 40px;
+}
+
+/*阴影效果*/
+.black-a:hover{
+	box-shadow: 1px 4px 20px #222;
+}
+.black-b:hover{
+	box-shadow: 1px 4px 20px #222;
+}
+.black-c:hover{
+	box-shadow: 1px 4px 20px #222;
+}
+.black-d:hover{
+	box-shadow: 1px 4px 20px #222;
+}
+.black-e:hover{
+	box-shadow: 1px 4px 20px #222;
+}
+
+/*手机袁问*/
+.yellow{
+	width: 1200px;
+	height: 412px;
+	position: relative;
+	/*background-color: pink;*/
+	margin: 0 auto;
+	top: 20px;
+}
+/*第一个*/
+.yellow-a{
+	width: 224px;
+	height: 364px;
+	position: absolute;
+	top: 48px;
+	box-shadow: 1px 4px 10px #aaa;
+	cursor: pointer;
+}
+.yellow-a h1{
+	position: absolute;
+	top:20px;
+	left: 20px;
+	color: #fff;	
+}
+.yellow-a h2{
+	position: absolute;
+	top:60px;
+	left: 20px;
+	font-size: 30px;
+	color: #fff;		
+}
+.yellow-a h3{
+	position: absolute;
+	top:115px;
+	left: 20px;
+	font-size: 16px;
+	color: #fff;
+}
+.yellow-a h4{
+	position: absolute;
+	top:250px;
+	left: 20px;
+	font-size: 12px;
+    color: #066;
+}
+.yellow-a h5{
+	position: absolute;
+	top:270px;
+	left: 20px;
+	font-size: 12px;
+    color: #066;
+}
+.yellow-a h6{
+	position: absolute;
+	top:310px;
+	left: 20px;
+	font-size: 12px;
+    color: #066;
+}
+.yellow-a a:hover h4{
+    color: #099;
+}
+.yellow-a a:hover h5{
+    color: #099;
+}
+.yellow-a a:hover h6{
+    color: #099;
+}
+.yellow-a h3:hover span{
+	transform: translateX(50px);
+}
+.yellow-a span{
+	position: absolute;
+	top: 0px;
+	left: 80px;
+	font-size: 16px;
+	color: #fff;
+	transition: 1s;
+}
+
+/*第二个*/
+.yellow-b{
+	width:468px;
+	height:172px;
+	position: absolute;
+	left:245px;
+	top:48px;
+	box-shadow: 1px 4px 10px #aaa;
+}
+.yellow-b h1{
+	position: absolute;
+	top: 0px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+	left: 190px;
+    line-height: 172px;
+}
+/*第三个*/
+.yellow-c{
+	width:468px;
+	height:172px;
+	position: absolute;
+	left:732px;
+	top:48px;
+	box-shadow: 1px 4px 10px #aaa;
+}
+.yellow-c h1{
+	position: absolute;
+	top: 0px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+	left: 190px;
+    line-height: 172px;
+}
+/*第四个*/
+.yellow-d{
+	width:468px;
+	height:172px;
+	background-color: white;
+	position: absolute;
+	left:245px;
+	top:240px;
+	box-shadow: 1px 4px 10px #aaa;
+}
+.yellow-d h1{
+	position: absolute;
+	top: -50px;
+	color: #07111b;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 172px;
+}
+.yellow-d li{
+	/*position: absolute;*/
+	margin-top: 20px;
+	margin-left: 100px;
+	color: #07111b;
+    font-size: 14px;
+
+}
+.yellow-d a:hover li{
+	color: red;
+}
+/*第五个*/
+.yellow-e{
+	width:468px;
+	height:172px;
+	background-color: white;
+	position: absolute;
+	left:732px;
+	top:240px;
+	box-shadow: 1px 4px 10px #aaa;
+}
+.yellow-e h1{
+	position: absolute;
+	top: -60px;
+	color: #07111b;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 172px;
+}
+.yellow-e li{
+	/*position: absolute;*/
+	margin-top: 20px;
+	margin-left: 100px;
+	color: #07111b;
+    font-size: 14px;
+
+}
+.yellow-e a:hover li{
+	color: red;
+}
+/*阴影效果*/
+.yellow-a:hover{
+	box-shadow: 1px 4px 20px #222;
+}
+.yellow-b:hover{
+	box-shadow: 1px 4px 20px #222;
+}
+.yellow-c:hover{
+	box-shadow: 1px 4px 20px #222;
+}
+.yellow-d:hover{
+	box-shadow: 1px 4px 20px #222;
+}
+.yellow-e:hover{
+	box-shadow: 1px 4px 20px #222;
+}
+
+
+/*尾部*/
+.bottom{
+	width: 100%;
+	height: 193px;
+	/*background-color: blue;*/
+	position: relative;
+	top: 130px;
+}
+.gray{
+	width: 1200px;
+	height: 193px;
+	position: relative;
+	/*background-color: pink;*/
+	margin: 0 auto;
+}
+.gray ul:nth-child(1){
+	width:188px;
+	height: 32px;
+	position: relative;
+	margin: 0 auto;
+	top: 35px; 
+}
+.gray ul:nth-child(1) li a{
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	float: left;
+	background-color: lightgray;
+	margin-left: 15px;
+	text-align: center;
+	line-height: 32px;
+}
+.gray ul:nth-child(1) li a:nth-child(1):hover{
+	background-color: gray;
+}
+.gray ul:nth-child(2){
+	width: 512px;
+	height: 14px;
+	position: relative;
+	margin:0 auto;
+}
+.gray ul:nth-child(2) li a{
+	font-size: 14px;
+    color: #99a1a6;
+    float: left;
+    margin-top: 80px;
+    margin-left: 15px;
+}
+.gray ul:nth-child(2) li a:nth-child(1):hover{
+	color: red;
+}
+.gray-b{
+	width: 1200px;
+	height: 1px;
+	background-color: lightgray;
+	position: absolute;
+	top:150px;
+}
+.gray span{
+	position: relative;
+	font-size: 12px;
+	color: lightgray;
+	top:120px;
+	left: -340px;
+}
+.gray-a{
+	width: 162px;
+	height: 200px;
+	position: absolute;
+	top: -250px;
+	left: 0px;
+	box-shadow: 1px 4px 10px #aaa;
+	background-image: url(image/59.png);
+	background-position: -6px 0px;
+	display: none;
+}
+.gray-q a:hover .gray-a{ 
+	display: block;
+}
+
+/*固定框*/
+.purple{
+	width: 36px;
+	height: 211px;
+    position: fixed;
+    padding: 0 15px;
+    bottom: 120px;
+    right: 0;
+    z-index: 1000;
+    background-color: #fff;
+    box-shadow: -2px 2px 5px 3px #f3f3f3;
+}
+.purple li{
+	margin-top: 30px;
+	text-align: center;
+}
+.gray-e{
+	width: 162px;
+	height: 200px;
+	position: absolute;
+	top: 0px;
+	left: -170px;
+	box-shadow: 1px 4px 10px #aaa;
+	background-image: url(image/59.png);
+	background-position: -6px 0px;
+	display: none;
+}
+
+.jieshu:hover .gray-e{
+	display: block;
+}
